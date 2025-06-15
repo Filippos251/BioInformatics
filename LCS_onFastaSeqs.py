@@ -41,3 +41,9 @@ if __name__ == "__main__":
     result, length = lcs(seq1, seq2)
     print(f"LCS length: {length}")
     print(f"LCS: {result}")
+
+#s1 = read_fasta("seq1.fasta")
+#s2 = read_fasta("seq2.fasta")
+#lcs_str, length = lcs(s1, s2)
+#print(f"LCS length: {length}")
+#print(f"LCS: {lcs_str}")

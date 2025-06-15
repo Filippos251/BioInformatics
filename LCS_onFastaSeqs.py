@@ -35,8 +35,8 @@ def lcs(s1, s2):
 
 # Example usage
 if __name__ == "__main__":
-    seq1 = read_fasta("sequence1.fasta")
-    seq2 = read_fasta("sequence2.fasta")
+    seq1 = read_fasta("MERS_Cov.fasta.txt")
+    seq2 = read_fasta("SarsCov2.fasta.txt")
 
     result, length = lcs(seq1, seq2)
     print(f"LCS length: {length}")

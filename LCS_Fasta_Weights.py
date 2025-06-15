@@ -64,8 +64,8 @@ def align(s1, s2, match=1, mismatch=-1, gap=-2):
     return ''.join(reversed(align1)), ''.join(reversed(align2)), L[n][m]
 
 #if __name__ == "__main__":
-#    s1 = read_fasta("seq1.fasta")
-#    s2 = read_fasta("seq2.fasta")
+#    s1 = read_fasta("MERS_Cov.fasta.txt")
+#    s2 = read_fasta("SarsCov.fasta.txt")
 #
 #    a1, a2, score = align(s1, s2, match=1, mismatch=-1, gap=-2)
 #    print(f"Alignment score: {score}")

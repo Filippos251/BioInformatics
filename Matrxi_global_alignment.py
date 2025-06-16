@@ -100,7 +100,7 @@ def run_alignment():
 
 # === GUI ===
 root = tk.Tk()
-root.title("Ολική Στοίχιση Ακολουθιών DNA")
+root.title("Ολική Στοίχιση Δύο Ακολουθιών ")
 
 tk.Label(root, text="Ακολουθία v:", font=("Arial", 12)).pack()
 entry1 = tk.Entry(root, width=40, font=("Courier", 12))
@@ -110,7 +110,7 @@ tk.Label(root, text="Ακολουθία w:", font=("Arial", 12)).pack()
 entry2 = tk.Entry(root, width=40, font=("Courier", 12))
 entry2.pack()
 
-tk.Button(root, text="Στοίχιση", command=run_alignment, font=("Arial", 12)).pack(pady=5)
+tk.Button(root, text="Ολική Στοίχιση", command=run_alignment, font=("Arial", 12)).pack(pady=5)
 
 result_text = tk.StringVar()
 tk.Label(root, textvariable=result_text, font=("Courier", 12), justify="left").pack(pady=5)

@@ -37,7 +37,7 @@ blast_record = NCBIXML.read(result_handle)
 
 # Εμφάνιση κορυφαίων αποτελεσμάτων
 print("Top hits:")
-for alignment in blast_record.alignments[:5]:  # Εμφάνιση των 5 πρώτων αποτελεσμάτων
+for alignment in blast_record.alignments[:2]:  # Εμφάνιση των 2 πρώτων αποτελεσμάτων
     print(f"Organism hit: {alignment.hit_def}")
     print(f"Accession: {alignment.accession}")
     print(f"Length: {alignment.length}")
